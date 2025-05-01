@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         CardView cardView2 = findViewById(R.id.buttonpill);
         CardView cardView3 = findViewById(R.id.buttonemergency);
         CardView cardView4 = findViewById(R.id.buttonpresreption);
-        CardView cardView5 = findViewById(R.id.buttonchatbot);
         CardView cardView6 = findViewById(R.id.buttoncalendar);
 
 
@@ -73,12 +72,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        cardView5.setOnClickListener(v -> {
 
-                Intent intent = new Intent(MainActivity.this, ChatbotActivity.class);
-                startActivity(intent);
-
-        });
 
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);

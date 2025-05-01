@@ -328,38 +328,6 @@
                     </androidx.cardview.widget.CardView>
 
                     <!-- Chatbot Card -->
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/buttonchatbot"
-                        android:layout_width="0dp"
-                        android:layout_height="150dp"
-                        android:layout_columnWeight="1"
-                        android:layout_margin="8dp"
-                        android:clickable="true"
-                        android:foreground="?attr/selectableItemBackground"
-                        app:cardCornerRadius="16dp"
-                        app:cardElevation="3dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_marginBottom="8dp"
-                                android:src="@drawable/userf" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Health Assistant"
-                                android:textColor="#A1F"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
 
                     <!-- Calendar Card -->
                     <androidx.cardview.widget.CardView

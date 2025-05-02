@@ -9,4 +9,9 @@
     <string name="medicines">Take Medicines</string>
     <string name="urgent">Urgent Contact</string>
 
+    <string name="account_info_selected">Account Information Selected</string>
+    <string name="account_security_selected">Account Security Selected</string>
+    <string name="logged_out">Logged out successfully</string>
+
+
 </resources>

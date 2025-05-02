@@ -9,7 +9,6 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -19,28 +18,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+
+        <!-- Welcome Screen as LAUNCHER activity -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            <!-- Launcher intent filter removed -->
         </activity>
 
         <activity android:name=".LoginActivity" android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- Launcher intent filter removed -->
         </activity>
         <activity android:name=".Appointment.AppointmentActivity" />
         <activity android:name=".Emergency.EmergencyContactsActivity" />
-        <activity android:name=".Askme.ChatbotActivity"/>
+        <activity android:name=".CalendarActivity" />
         <activity android:name=".Prescription.PrescriptionListActivity"/>
         <receiver android:name=".Medication.MedicationReminderReceiver" />
         <activity android:name=".Medication.MedicationReminderActivity" />
@@ -48,8 +51,5 @@
         <activity android:name=".Medication.MedicationDetailActivity" />
         <activity android:name=".Medication.EditMedicationActivity" />
     </application>
-
-
-
 
 </manifest>

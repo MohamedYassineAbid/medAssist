@@ -46,14 +46,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="60dp"
-                        android:fontFamily="@font/nabla"
+                        android:fontFamily="@font/chilispepper"
                         android:shadowColor="#AA000000"
                         android:shadowDx="2"
                         android:shadowDy="2"
                         android:shadowRadius="4"
                         android:text="MedAssist"
-                        android:textColor="@color/black"
-                        android:textSize="40sp"
+                        android:textColor="#0000FF"          android:textSize="60dp"
                         android:textStyle="bold" />
 
 
@@ -213,7 +212,7 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_marginBottom="8dp"
-                                android:src="@drawable/rendezvousf" />
+                                android:src="@drawable/appointments" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -247,7 +246,7 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_marginBottom="8dp"
-                                android:src="@drawable/pillsf" />
+                                android:src="@drawable/medicine" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -281,7 +280,7 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_marginBottom="8dp"
-                                android:src="@drawable/contactf" />
+                                android:src="@drawable/siren" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -315,7 +314,7 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_marginBottom="8dp"
-                                android:src="@drawable/ordonnancef" />
+                                android:src="@drawable/prescription" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -351,7 +350,7 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_marginBottom="8dp"
-                                android:src="@drawable/calandref" />
+                                android:src="@drawable/dsfsfsdfs" />
 
                             <TextView
                                 android:layout_width="wrap_content"
